@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container .Header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: right;
+  
+    
+
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background: #ffd9c3b6;
+    background-image: url('../assests/image/image-bg.png');
+}
+.upperButton{
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #4499D9 , #7367BE);
+    border: 0;
+    
+
+    
+}
