@@ -1,3 +1,10 @@
+/*
+@fontface{
+    font-family: Josef;
+    src: url()
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -13,13 +20,26 @@
     flex-direction: row;
     justify-content: center;
 
+
+}
+.container .Header{
+    display: flex;
+    
+
+}
+a .logo{
+display: flex; 
+width: 286.54px;
+height:78px;
+
 }
 
 .container .Header ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
-    justify-content: right;
+    margin-top: 24px;
+  
   
     
 
@@ -39,7 +59,47 @@
     justify-content: center;
     background-image: linear-gradient(to right, #4499D9 , #7367BE);
     border: 0;
-    
+    cursor: pointer;
+    padding: 15px;
 
     
 }
+.VR{
+    width:211.49px ;
+    height:95px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    
+} */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Lora:ital@1&display=swap');
+:root {
+    --main-color: #EB8382; 
+    --secondary-color: #446381;
+}
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2 ease;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background: #ffd9c3b6;
+    background-image: url('../assests/image/image-bg.png');}
+/* header start*/
+.header .logo img {
+    width: 286.54px;
+    height: 78px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/* header end*/
