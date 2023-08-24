@@ -64,19 +64,14 @@ height:78px;
 
     
 }
-.VR{
-    width:211.49px ;
-    height:95px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    margin: 0 auto;
-    
-} */
+ */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Lora:ital@1&display=swap');
+
 :root {
-    --main-color: #EB8382; 
+    --main-color: #EB8382;
     --secondary-color: #446381;
 }
+
 * {
     font-family: 'Josefin Sans', sans-serif;
     padding: 0;
@@ -85,21 +80,148 @@ height:78px;
     box-sizing: border-box;
     transition: 0.2 ease;
 }
+
 main {
     width: 100%;
     height: 100vh;
     background: #ffd9c3b6;
-    background-image: url('../assests/image/image-bg.png');}
+    background-image: url('../assests/image/image-bg.png');
+}
+
 /* header start*/
 .header .logo img {
     width: 286.54px;
     height: 78px;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
+}
+
+.btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 148px;
+    background-image: linear-gradient(to right, #4499D9, #7367BE);
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+
+}
+
+header nav a {
+
+    padding: 20px;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid transparent;
+    border-color: var(--main-color);
+    padding-bottom: 5px;
+    transition: 1s ease;
 }
 
 /* header end*/
+/* VR part started */
+.vrSection {
+    width: 280px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #ffffff72;
+    margin: 0 auto;
+    box-shadow: 3px 12px 25px #eb84826b;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.vrText {
+    color: var(--secondary-color);
+    margin: 0.625rem;
+    font-weight: 500;
+
+}
+
+.vrPrice {
+    color: var(--main-color);
+    font-weight: 500;
+    margin: 0.625rem;
+
+}
+
+.vrImage {
+    Width: 5.3025rem;
+    Height: 40px;
+    margin-right: 0.625rem;
+}
+
+.ratings {
+
+    width: 100%;
+    height: 2px;
+    color: #FFB359;
+    display: flex;
+    margin: 0.625rem;
+    display: flex;
+    
+}
+
+.review {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+/* VR part ended */
+/* content section stated */
+section .content {
+    width: 400px;
+    height: 300px;
+
+
+
+}
+
+.contentArrows {
+    width: 270px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    color: var(--secondary-color);
+    font-weight: 500;
+    
+    
+}
+
+.arrows {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+section {
+    margin: 150px;
+}
+.tryIt{
+    color: var(--main-color);
+    font-weight: 700;
+}
+.character{
+    width: 600px;
+    height: 580px;
+    display: flex;
+    margin: ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
