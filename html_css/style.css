@@ -12,16 +12,7 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-
-}
 .container .Header{
     display: flex;
     
@@ -72,6 +63,12 @@ height:78px;
     --secondary-color: #446381;
 }
 
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 * {
     font-family: 'Josefin Sans', sans-serif;
     padding: 0;
@@ -83,7 +80,6 @@ height:78px;
 
 main {
     width: 100%;
-    height: 100vh;
     background: #ffd9c3b6;
     background-image: url('../assests/image/image-bg.png');
 }
@@ -97,15 +93,13 @@ main {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .btn {
     width: 180px;
     height: 50px;
     border-radius: 25px;
-    margin-right: 148px;
     background-image: linear-gradient(to right, #4499D9, #7367BE);
     border: 0;
     cursor: pointer;
@@ -114,9 +108,11 @@ main {
 
 }
 
-header nav a {
-
-    padding: 20px;
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    justify-content: space-between;
 }
 
 header nav a:hover {
@@ -129,14 +125,17 @@ header nav a:hover {
 /* header end*/
 /* VR part started */
 .vrSection {
-    width: 280px;
-    height: 125px;
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    right: 75%;
     border-radius: 10px;
     background-color: #ffffff72;
     margin: 0 auto;
     box-shadow: 3px 12px 25px #eb84826b;
     display: flex;
     align-items: center;
+    padding: 2rem;
 
 
 }
@@ -156,7 +155,7 @@ header nav a:hover {
 }
 
 .vrImage {
-    Width: 5.3025rem;
+    width: 5.3025rem;
     Height: 40px;
     margin-right: 0.625rem;
 }
@@ -164,17 +163,20 @@ header nav a:hover {
 .ratings {
 
     width: 100%;
-    height: 2px;
     color: #FFB359;
     display: flex;
     margin: 0.625rem;
     display: flex;
-    
-}
+    gap: 24px;
 
+}
+.star{
+    display: flex;
+}
 .review {
     color: var(--secondary-color);
     font-weight: 500;
+
 }
 
 /* VR part ended */
@@ -196,8 +198,8 @@ section .content {
     justify-content: space-between;
     color: var(--secondary-color);
     font-weight: 500;
-    
-    
+
+
 }
 
 .arrows {
@@ -209,19 +211,76 @@ section .content {
 }
 
 section {
-    margin: 150px;
+    margin-inline: 4rem;
 }
-.tryIt{
+
+.tryIt {
     color: var(--main-color);
     font-weight: 700;
+    margin-top: 15px;
+    font-size: 60px;
+
+
 }
-.character{
-    width: 600px;
-    height: 580px;
+
+.tryItColor {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.tryIt .btn {
+    margin-top: 15px;
+}
+
+h2,
+p {
+    color: var(--secondary-color);
+}
+
+.contentItems {
+    height: 400px;
     display: flex;
-    margin: ;
+    align-items: center;
+    justify-content: space-between;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 1rem;
+
+
 }
-main{
+
+.contentText {
+
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    max-width: 510px;
+
+}
+
+.character img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contentText p {
+    font-size: 18px;
+    max-width: 520px;
+    font-weight: 500;
+}
+
+.character {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
 }
