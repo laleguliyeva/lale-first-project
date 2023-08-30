@@ -156,7 +156,7 @@ header nav a:hover {
 
 .vrImage {
     width: 10rem;
-    Height: 40px;
+    Height: 60px;
 }
 
 .ratings {
@@ -171,12 +171,13 @@ header nav a:hover {
 
 .star {
     display: flex;
+
 }
 
 .review {
     color: var(--secondary-color);
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
 
 }
 
@@ -304,11 +305,11 @@ main {
 .aboutContainer {}
 
 .cross {
-
     position: relative;
     left: 200px;
     opacity: 60%;
 }
+
 .dots img {
     width: 120px;
     height: 100px;
