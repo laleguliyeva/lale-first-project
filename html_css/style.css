@@ -80,7 +80,7 @@ height:78px;
 
 main {
     width: 100%;
-    background: #ffd9c3b6;
+    background: #ffd9c3c4;
     background-image: url('../assests/image/image-bg.png');
 }
 
@@ -135,7 +135,7 @@ header nav a:hover {
     box-shadow: 3px 12px 25px #eb84826b;
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
 
 
 }
@@ -155,27 +155,28 @@ header nav a:hover {
 }
 
 .vrImage {
-    width: 5.3025rem;
+    width: 10rem;
     Height: 40px;
-    margin-right: 0.625rem;
 }
 
 .ratings {
 
     width: 100%;
     color: #FFB359;
+    margin: 0.5rem;
     display: flex;
-    margin: 0.625rem;
-    display: flex;
-    gap: 24px;
+    gap: 5px;
 
 }
-.star{
+
+.star {
     display: flex;
 }
+
 .review {
     color: var(--secondary-color);
     font-weight: 500;
+    font-size: 15px;
 
 }
 
@@ -282,5 +283,36 @@ p {
 main {
     display: flex;
     flex-direction: column;
+
+
+}
+
+.playingGuy {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.about {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutContainer {}
+
+.cross {
+
+    position: relative;
+    left: 200px;
+    opacity: 60%;
+}
+.dots img {
+    width: 120px;
+    height: 100px;
+    position: relative;
+    bottom: -200px;
 
 }
