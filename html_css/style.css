@@ -1,61 +1,4 @@
-/*
-@fontface{
-    font-family: Josef;
-    src: url()
 
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
-
-.container .Header{
-    display: flex;
-    
-
-}
-a .logo{
-display: flex; 
-width: 286.54px;
-height:78px;
-
-}
-
-.container .Header ul {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    margin-top: 24px;
-  
-  
-    
-
-}
-
-.main-container {
-    width: 100%;
-    height: 100vh;
-    background: #ffd9c3b6;
-    background-image: url('../assests/image/image-bg.png');
-}
-.upperButton{
-    width: 180px;
-    height: 50px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to right, #4499D9 , #7367BE);
-    border: 0;
-    cursor: pointer;
-    padding: 15px;
-
-    
-}
- */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Lora:ital@1&display=swap');
 
 :root {
@@ -124,7 +67,7 @@ header nav a:hover {
 
 /* header end*/
 /* VR part started */
-.vrSection {
+.vrSection , .joyStick {
     width: 300px;
     height: 130px;
     position: absolute;
@@ -136,6 +79,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     padding: 1rem;
+    opacity: 90%;
 
 
 }
@@ -180,6 +124,7 @@ header nav a:hover {
     font-size: 14px;
 
 }
+
 
 /* VR part ended */
 /* content section stated */
@@ -236,7 +181,7 @@ section {
 }
 
 h2,
-p {
+p, h4 {
     color: var(--secondary-color);
 }
 
@@ -259,6 +204,7 @@ p {
     gap: 1rem;
     width: 50%;
     max-width: 510px;
+    
 
 }
 
@@ -280,6 +226,9 @@ p {
     display: flex;
     position: relative;
 }
+.joyStick{
+
+}
 
 main {
     display: flex;
@@ -296,13 +245,21 @@ main {
 }
 
 .about {
+    margin-top: 30px;
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1rem;
 }
 
-.aboutContainer {}
+.aboutContainer {
+    width: 83%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 .cross {
     position: relative;
@@ -317,3 +274,4 @@ main {
     bottom: -200px;
 
 }
+
