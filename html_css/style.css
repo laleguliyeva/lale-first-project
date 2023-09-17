@@ -258,6 +258,7 @@ main {
 
 .aboutContainer {
     width: 83%;
+    margin-top: 11rem;
     height: 600px;
     display: flex;
     gap: 1rem;
@@ -293,8 +294,12 @@ main {
     font-size: larger;
  }
  .plan{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     color: var(--main-color);
     text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
  }
  .cards{
     max-width: 100%;
@@ -302,7 +307,7 @@ main {
     gap: 1rem;
     margin: 0 auto;
     justify-content: space-between;
-
+margin-bottom: 3rem;
  }
  .card{
     width: 340px;
@@ -381,13 +386,24 @@ main {
     color: white;
     }
 
+.row p{
+    color: #EB8382;
 }
-.footer{
-    margin-top: 3rem;
+}
+footer{
+
+    margin-inline: 4rem;
+    width: 88%;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
  .sMedia{
+ width: 8rem;
  color: #446381;
+ display: flex;
+ justify-content: space-between;
+ gap: 1rem;
+
  }
