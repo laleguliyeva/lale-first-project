@@ -378,9 +378,9 @@ margin-bottom: 3rem;
     right: 2rem;
 }
 
-.cards :hover{
+.card:hover{
     background-color: #446381;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 1s;
     .levels{
     color: white;
