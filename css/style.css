@@ -20,10 +20,11 @@
     transition: 0.2 ease;
 }
 
-main {
-    width: 100%;
+
+body {
     background: #ffd9c3c4;
     background-image: url('../assests/image/image-bg.png');
+    scroll-behavior: smooth;
 }
 
 /* header start*/
@@ -36,6 +37,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /*  */
+    top: 0;
+    z-index: 99;
+    background: #ffd9c3c4;
+    background-image: url('../assests/image/image-bg.png');
 }
 
 .btn {
@@ -73,7 +79,7 @@ header nav a:hover {
     position: absolute;
     right: 75%;
     border-radius: 10px;
-    background-color: #ffffff72;
+    /* background-color: #ffffff72; */
     margin: 0 auto;
     box-shadow: 3px 12px 25px #eb84826b;
     display: flex;
@@ -243,6 +249,7 @@ main {
     object-fit: contain;
 
 }
+
 /*Home section ended*/
 
 /*About part started*/
@@ -250,7 +257,7 @@ main {
 .about,
 .xboxAbout {
     margin-top: 30px;
-    max-width:  500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -287,110 +294,125 @@ main {
     margin: 0 auto;
     justify-content: space-between;
 }
+
 /*About part ended*/
 /*Pricing part started*/
- .ourPricing{
+.ourPricing {
     text-align: center;
     font-size: larger;
- }
- .plan{
+}
+
+.plan {
     margin-top: 1rem;
     margin-bottom: 2rem;
     color: var(--main-color);
     text-align: center;
     font-size: 3rem;
     font-weight: 500;
- }
- .cards{
+}
+
+.cards {
     max-width: 100%;
     display: flex;
     gap: 1rem;
     margin: 0 auto;
     justify-content: space-between;
-margin-bottom: 3rem;
- }
- .card{
+    margin-bottom: 3rem;
+}
+
+.card {
     width: 340px;
     height: 521px;
     border-radius: 20px;
-    background-color: #eb84822a;
+    /* background-color: #eb84822a; */
     padding: 1rem;
-  
+
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 1rem;
     position: relative;
-   
- }
- .cards, .levels{
-    
+
+}
+
+.cards,
+.levels {
+
     font-size: 32px;
     color: var(--secondary-color)
+}
 
- }
- .dollar{
+.dollar {
     font-size: 18px;
     color: var(--main-color);
- }
- .perHour{
+}
+
+.perHour {
     color: var(--main-color);
     font-size: 15px;
-    
- }
- .pricing{
+
+}
+
+.pricing {
     display: flex;
- }
- 
- .dollar-value{
+}
+
+.dollar-value {
     font-size: 50px;
- }
-.fa-check{
+}
+
+.fa-check {
     margin-right: 1rem;
     font-size: 15px;
     color: #486482;
-   
-    
+
+
 }
-.column{
+
+.column {
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
 }
 
-.row{
+.row {
     display: flex;
     align-items: center;
 
-    
+
 }
- .row p{
+
+.row p {
     font-size: 18px;
     color: #826F8C;
 }
+
 /* bu btn classi yaratdim ki todan paddingi olsun */
-.btn-top{
- margin: 24px auto;
+.btn-top {
+    margin: 24px auto;
 }
-.icon{
+
+.icon {
     position: absolute;
     right: 2rem;
 }
 
-.card:hover{
+.card:hover {
     background-color: #446381;
     transform: scale(1.1);
     transition: 1s;
-    .levels{
-    color: white;
+
+    .levels {
+        color: white;
     }
 
-.row p{
-    color: #EB8382;
+    .row p {
+        color: #EB8382;
+    }
 }
-}
-footer{
+
+footer {
 
     margin-inline: 4rem;
     width: 88%;
@@ -399,11 +421,12 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
- .sMedia{
- width: 8rem;
- color: #446381;
- display: flex;
- justify-content: space-between;
- gap: 1rem;
 
- }
+.sMedia {
+    width: 8rem;
+    color: #446381;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
